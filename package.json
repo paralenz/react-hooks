@@ -1,6 +1,6 @@
 {
   "name": "@paralenz/react-hooks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of react-hooks that is used by the Paralenz development team",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
