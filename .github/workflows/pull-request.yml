@@ -15,8 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: paralenz/actions/setup-node@v2.1.1
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Run linting
